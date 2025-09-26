@@ -7,54 +7,66 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>Soporte Técnico</h1>
-        <div class="botones-salto" style="text-align:center; margin-top:10px;">
-        <a href="#servicios" class="boton-salto">Servicios</a>
-        <a href="#ejemplos" class="boton-salto">Ejemplos</a>
-        <a href="#contacto" class="boton-salto">Contacto</a>
-    </div>
+        <div class="botones-salto">
+            <a href="#servicios" class="boton-salto">Servicios</a>
+            <a href="#ejemplos" class="boton-salto">Ejemplos</a>
+            <a href="#contacto" class="boton-salto">Contacto</a>
+        </div>
     </header>
 
     <main>
-        <h2>Servicios ofrecidos:</h2>
+        <!-- Sección Servicios -->
+        <section id="servicios" class="section-container">
+            <h2>Servicios ofrecidos:</h2>
 
-        <section class="servicio">
-            <h3>PC de Escritorio:</h3>
-            <ul>
-                <li>Formateo + instalación Windows + drivers + programas básicos</li>
-                <li>Instalación de Office / programas sueltos</li>
-                <li>Limpieza de virus / optimización de PC</li>
-                <li>Mantenimiento físico (Limpieza + Pasta térmica)</li>
-                <li>Cambio de componentes (disco, RAM, etc.)</li>
-                <li>Recuperación de datos</li>
-            </ul>
+            <div class="servicio">
+                <h3>PC de Escritorio:</h3>
+                <ul>
+                    <li>Formateo + instalación Windows + drivers + programas básicos</li>
+                    <li>Instalación de Office / programas sueltos</li>
+                    <li>Limpieza de virus / optimización de PC</li>
+                    <li>Mantenimiento físico (Limpieza + Pasta térmica)</li>
+                    <li>Cambio de componentes (disco, RAM, etc.)</li>
+                    <li>Recuperación de datos</li>
+                </ul>
+            </div>
+
+            <div class="servicio">
+                <h3>Notebook:</h3>
+                <ul>
+                    <li>Formateo + instalación Windows + drivers + programas básicos</li>
+                    <li>Instalación de Office / programas sueltos</li>
+                    <li>Limpieza de virus / optimización de PC</li>
+                    <li>Recuperación de datos</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="servicio">
-            <h3>Notebook:</h3>
-            <ul>
-                <li>Formateo + instalación Windows + drivers + programas básicos</li>
-                <li>Instalación de Office / programas sueltos</li>
-                <li>Limpieza de virus / optimización de PC</li>
-                <li>Recuperación de datos</li>
-            </ul>
-        </section>
-
-        <section id="ejemplo">
+        <!-- Sección Ejemplos -->
+        <section id="ejemplos" class="section-container">
             <h3>Ejemplos de trabajos hechos:</h3>
-            <!-- Tengo que añadir imagenes luego... -->
-            <img src="ejemplo1.jpg" alt="Ejemplo 1" style="width:100%; max-width:500px; display:block; margin:10px auto;">
-            <img src="ejemplo2.jpg" alt="Ejemplo 2" style="width:100%; max-width:500px; display:block; margin:10px auto;">
+            <img src="images/ejemplo1.jpg" alt="Ejemplo 1">
+            <img src="images/ejemplo2.jpg" alt="Ejemplo 2">
         </section>
 
-        <div style="text-align:center; margin-top:20px;">
-            <a href="https://wa.me/54911XXXXXXX" class="button-whatsapp">Contactar por WhatsApp</a>
-        </div>
+        <!-- Sección Contacto -->
+        <section id="contacto" class="section-container">
+            <h3>Contacto</h3>
+            <p>Podés contactarme por WhatsApp haciendo clic en el botón flotante abajo a la derecha.</p>
+        </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <p>Contacto: <a href="https://wa.me/54911XXXXXXX">WhatsApp</a></p>
     </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/54911XXXXXXX" class="whatsapp-float" target="_blank">
+        <img src="images/whatsapp.svg" alt="WhatsApp" />
+    </a>
 </body>
 </html>
