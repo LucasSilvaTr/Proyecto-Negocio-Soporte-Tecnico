@@ -1,11 +1,60 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <h1>Titulo</h1>
-    </head>
-    <form action="/search" method="get">
-        <h4>Ingrese algo</h4>
-        <input type="text" name="document">
-        <input type="submit" subir>
-    </form>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Técnico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Soporte Técnico</h1>
+        <div class="botones-salto" style="text-align:center; margin-top:10px;">
+        <a href="#servicios" class="boton-salto">Servicios</a>
+        <a href="#ejemplos" class="boton-salto">Ejemplos</a>
+        <a href="#contacto" class="boton-salto">Contacto</a>
+    </div>
+    </header>
+
+    <main>
+        <h2>Servicios ofrecidos:</h2>
+
+        <section class="servicio">
+            <h3>PC de Escritorio:</h3>
+            <ul>
+                <li>Formateo + instalación Windows + drivers + programas básicos</li>
+                <li>Instalación de Office / programas sueltos</li>
+                <li>Limpieza de virus / optimización de PC</li>
+                <li>Mantenimiento físico (Limpieza + Pasta térmica)</li>
+                <li>Cambio de componentes (disco, RAM, etc.)</li>
+                <li>Recuperación de datos</li>
+            </ul>
+        </section>
+
+        <section class="servicio">
+            <h3>Notebook:</h3>
+            <ul>
+                <li>Formateo + instalación Windows + drivers + programas básicos</li>
+                <li>Instalación de Office / programas sueltos</li>
+                <li>Limpieza de virus / optimización de PC</li>
+                <li>Recuperación de datos</li>
+            </ul>
+        </section>
+
+        <section id="ejemplo">
+            <h3>Ejemplos de trabajos hechos:</h3>
+            <!-- Tengo que añadir imagenes luego... -->
+            <img src="ejemplo1.jpg" alt="Ejemplo 1" style="width:100%; max-width:500px; display:block; margin:10px auto;">
+            <img src="ejemplo2.jpg" alt="Ejemplo 2" style="width:100%; max-width:500px; display:block; margin:10px auto;">
+        </section>
+
+        <div style="text-align:center; margin-top:20px;">
+            <a href="https://wa.me/54911XXXXXXX" class="button-whatsapp">Contactar por WhatsApp</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contacto: <a href="https://wa.me/54911XXXXXXX">WhatsApp</a></p>
+    </footer>
+</body>
 </html>

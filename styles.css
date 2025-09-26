@@ -1,3 +1,93 @@
+/* ------------------------------
+   BODY: fondo, color de texto y tipografía
+---------------------------------*/
 body {
-    background-color: lightblue;
+    background-color: #d0ebff; /* celeste claro de fondo */
+    color: #333;               /* color de texto gris oscuro para buena lectura */
+    font-family: Arial, sans-serif; /* tipografía simple y legible */
+    margin: 0;                 /* elimina el margen por defecto del navegador */
+    padding: 0;                /* elimina padding por defecto */
+}
+
+/* ------------------------------
+   HEADER: título principal centrado
+---------------------------------*/
+header h1 {
+    text-align: center;        /* centra el texto */
+    padding: 20px 0;           /* espacio arriba y abajo del título */
+    font-size: 2.5em;          /* tamaño más grande que el resto */
+}
+
+/* ------------------------------
+   SECCIONES / H2: subtítulos
+---------------------------------*/
+h2 {
+    text-align: center;        /* centra subtítulos */
+    margin-top: 10px;          /* espacio arriba */
+    margin-bottom: 20px;       /* espacio debajo */
+}
+
+/* ------------------------------
+   BLOQUES DE SERVICIOS
+---------------------------------*/
+.servicio {
+    background-color: #ffffff; /* cada servicio es una "caja" blanca */
+    padding: 15px;             /* espacio dentro de la caja */
+    margin: 15px auto;         /* espacio entre cajas y centrado */
+    border-radius: 8px;        /* esquinas redondeadas */
+    max-width: 600px;          /* no se estira demasiado en pantallas grandes */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra sutil para destacar */
+}
+
+/* ------------------------------
+   H3 dentro de los servicios
+---------------------------------*/
+.servicio h3 {
+    margin-top: 0;             /* quita espacio extra arriba */
+}
+
+/* ------------------------------
+   LISTAS DE SERVICIOS
+---------------------------------*/
+.servicio ul {
+    list-style-type: disc;     /* puntos en las listas */
+    padding-left: 20px;        /* sangría para que se vea ordenado */
+}
+
+/* ------------------------------
+   EJEMPLOS DE TRABAJOS
+---------------------------------*/
+#ejemplo {
+    text-align: center;        /* centra el título de ejemplos */
+    text-decoration: underline; /* subraya el título */
+    margin-top: 30px;          /* espacio arriba */
+}
+
+/* ------------------------------
+   BOTÓN DE WHATSAPP
+---------------------------------*/
+a.button-whatsapp {
+    display: inline-block;           /* permite aplicar padding y margen */
+    background-color: #25d366;      /* verde WhatsApp */
+    color: white;                    /* texto blanco */
+    padding: 12px 25px;              /* espacio dentro del botón */
+    border-radius: 8px;              /* bordes redondeados */
+    text-decoration: none;           /* quita subrayado */
+    font-weight: bold;               /* texto más grueso */
+    margin-top: 10px;                /* espacio arriba */
+    transition: background-color 0.3s; /* animación suave al pasar el mouse */
+}
+
+a.button-whatsapp:hover {
+    background-color: #1ebe5d;       /* cambia un poco el verde al pasar el mouse */
+}
+
+/* ------------------------------
+   FOOTER
+---------------------------------*/
+footer {
+    text-align: center;       /* centra el texto del footer */
+    padding: 15px 0;          /* espacio arriba y abajo */
+    background-color: #e6f2ff; /* un celeste muy suave para separar del resto */
+    margin-top: 30px;         /* espacio encima del footer */
 }
