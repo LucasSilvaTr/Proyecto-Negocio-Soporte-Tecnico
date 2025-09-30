@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soporte Técnico</title>
+    <title>Soporte Técnico LuQuén</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.ico">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1>Soporte Técnico</h1>
+        <div class="wrapper">
+            <img src="images/logo.png" alt="Logo LuQuén" class="logo">
+            <h1>Soporte Técnico LuQuén</h1>
+        </div>
         <div class="botones-salto">
             <a href="#servicios" class="boton-salto">Servicios</a>
             <a href="#ejemplos" class="boton-salto">Ejemplos</a>
@@ -18,38 +23,52 @@
     </header>
 
     <main>
+        <!-- Aviso general -->
+        <section class="section-container">
+            <p class="nota">
+                <i class="fa-solid fa-circle-info"></i> Nota: estoy comenzando con el servicio, por lo que algunos trabajos avanzados estarán disponibles más adelante. 
+                Mientras tanto, ofrezco <strong>precios promocionales</strong> en los servicios listados.
+            </p>
+        </section>
+
         <!-- Sección Servicios -->
         <section id="servicios" class="section-container">
             <h2>Servicios ofrecidos:</h2>
 
             <div class="servicio">
+                <img src="images/pc-escritorio.jpg" alt="pc de escritorio" class="banner">
                 <h3>PC de Escritorio:</h3>
                 <ul>
-                    <li>Formateo + instalación Windows + drivers + programas básicos</li>
-                    <li>Instalación de Office / programas sueltos</li>
-                    <li>Limpieza de virus / optimización de PC</li>
-                    <li>Mantenimiento físico (Limpieza + Pasta térmica)</li>
-                    <li>Cambio de componentes (disco, RAM, etc.)</li>
-                    <li>Recuperación de datos</li>
+                    <li><i class="fa-solid fa-desktop"></i> Formateo + instalación Windows + drivers + programas básicos — <strong>$30.000</strong></li>
+                    <li><i class="fa-solid fa-download"></i> Instalación de Office / programas sueltos — <strong>$15.000 – $20.000</strong></li>
+                    <li><i class="fa-solid fa-compact-disc"></i> Limpieza de virus / optimización de PC — <strong>$20.000</strong></li>
+                    <li class="proximamente"><i class="fa-solid fa-computer"></i> Mantenimiento físico (Limpieza + Pasta térmica) — <strong>Próximamente</strong></li>
+                    <li><i class="fa-solid fa-memory"></i> Cambio de componentes (disco, RAM, etc.) — <strong>desde $15.000</strong></li>
+                    <li><i class="fa-solid fa-hard-drive"></i> Recuperación de datos — <strong>desde $25.000</strong></li>
                 </ul>
             </div>
 
             <div class="servicio">
+                <img src="images/laptop.jpg" alt="portatil" class="banner">
                 <h3>Notebook:</h3>
                 <ul>
-                    <li>Formateo + instalación Windows + drivers + programas básicos</li>
-                    <li>Instalación de Office / programas sueltos</li>
-                    <li>Limpieza de virus / optimización de PC</li>
-                    <li>Recuperación de datos</li>
+                    <li><i class="fa-solid fa-desktop"></i> Formateo + instalación Windows + drivers + programas básicos — <strong>$30.000</strong></li>
+                    <li><i class="fa-solid fa-download"></i> Instalación de Office / programas sueltos — <strong>$15.000 – $20.000</strong></li>
+                    <li><i class="fa-solid fa-compact-disc"></i> Limpieza de virus / optimización de PC — <strong>$20.000</strong></li>
+                    <li><i class="fa-solid fa-hard-drive"></i> Recuperación de datos — <strong>desde $25.000</strong></li>
                 </ul>
             </div>
+
+            <!-- Aviso sobre el adelanto -->
+            <p class="nota">
+                <i class="fa-solid fa-circle-info"></i> Se solicita un adelanto del <strong>30%</strong> del presupuesto antes de iniciar el trabajo.
+            </p>
         </section>
 
         <!-- Sección Ejemplos -->
         <section id="ejemplos" class="section-container">
             <h3>Ejemplos de trabajos hechos:</h3>
-            <img src="images/ejemplo1.jpg" alt="Ejemplo 1">
-            <img src="images/ejemplo2.jpg" alt="Ejemplo 2">
+            <p>En construcción.</p>
         </section>
 
         <!-- Sección Contacto -->
@@ -61,6 +80,7 @@
 
     <!-- Footer -->
     <footer>
+        <img src="images/logo.png" alt="Logo LuQuén" class="logo-footer">
         <p>Contacto: <a href="https://wa.me/54911XXXXXXX">WhatsApp</a></p>
     </footer>
 

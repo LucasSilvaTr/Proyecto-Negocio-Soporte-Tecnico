@@ -69,9 +69,8 @@ ul {
 /* Footer */
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 8px;
     background-color: #b2ebf2;
-    margin-top: 20px;
     border-top: 1px solid #aaa;
 }
 
@@ -94,4 +93,77 @@ footer {
 
 .whatsapp-float:hover {
     transform: scale(1.1);
+}
+
+.proximamente {
+    color: #888;
+    font-style: italic;
+    margin-left: 5px;
+    background: #ffeeba;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.proximamente::after {
+    content: "Próximamente";
+    font-size: 0.8em;
+    color: #444;
+    background: #ffeeba;
+    border: 1px solid #e0a800;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+
+  .servicios li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+  }
+  .servicios i {
+    color: #1bd741; 
+  }
+
+  .banner{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .nota {
+    background-color: #e9f7ef;  /* verde muy clarito */
+    border-left: 5px solid #1BD741; /* verde WhatsApp */
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 0.95rem;
+    color: #333;
+    border-radius: 5px;
+}
+.nota i {
+    margin-right: 6px;
+    color: #1BD741;
+}
+
+.logo-footer {
+    height: 80px; 
+    width: auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 120px; 
+    width: auto;
+}
+
+.wrapper{
+    display: flex;
+    text-align: center;
 }
